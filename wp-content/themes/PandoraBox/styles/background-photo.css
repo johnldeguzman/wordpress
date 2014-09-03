@@ -1,0 +1,80 @@
+.colorblock {
+  background-size: cover;
+}
+.colorblock .block-container h2.title {
+  font-weight: 400;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+.colorblock .block-container .description {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+.homeblock .block-container #description-home .wrapper h1.maintext {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+.homeblock .block-container #description-home .wrapper .descriptiontext {
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+.homeblock .block-container #description-home .wrapper .mobilebrands .mobileicon i {
+  color: #fff;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.homeblock .block-container #description-home .wrapper .mobilebrands .mobileicon i:hover {
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+.priceblock .block-container .infoblock .title {
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+.priceblock .block-container .infoblock .subscription {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+.priceblock .block-container .infoblock .contacticons {
+  font-weight: 400;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+.priceblock .block-container .infoblock .contacticons a.item {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+.priceblock .block-container .infoblock .contacticons a.item:hover {
+  background: rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+}
+.twitterblock .block-container .twitterlogo i {
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+.twitterblock .block-container .messages-container .message {
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+}
+.twitterblock .block-container .messages-container .message .content {
+  font-weight: 400;
+}
+.contactsblock .block-container {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+.contactsblock .block-container .wrapper h2.title {
+  color: #fff;
+}
+@media screen and (max-width: 1024px) {
+  .contactsblock .block-container {
+    background: none;
+    color: #fff;
+  }
+  .contactsblock .block-container .wrapper h2.title {
+    color: #fff;
+    font-weight: 400;
+  }
+  .contactsblock .block-container .wrapper .contact-info .title,
+  .contactsblock .block-container .wrapper .contact-info a,
+  .contactsblock .block-container .wrapper .contact-info p {
+    color: #fff;
+    font-weight: 400;
+  }
+  .contactsblock .block-container .wrapper .contact-info a:hover {
+    color: #fff !important;
+  }
+}

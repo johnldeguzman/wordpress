@@ -1,0 +1,76 @@
+.colorblock .block-container .title {
+  color: #333333;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+}
+.colorblock .block-container .description {
+  color: #333333;
+  color: rgba(0, 0, 0, 0.6);
+}
+.homeblock .block-container #description-home .wrapper h1.maintext {
+  color: #333333;
+  color: rgba(0, 0, 0, 0.6);
+}
+.homeblock .block-container #description-home .wrapper .descriptiontext {
+  color: #333333;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+}
+.homeblock .block-container #description-home .wrapper .mobilebrands .mobileicon i {
+  color: #333333;
+  color: rgba(0, 0, 0, 0.6);
+}
+.homeblock .block-container #description-home .wrapper .mobilebrands .mobileicon i:hover {
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+.priceblock .block-container .infoblock .title {
+  color: #333333;
+  color: rgba(0, 0, 0, 0.6);
+}
+.priceblock .block-container .infoblock .subscription {
+  color: #333333;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+}
+.priceblock .block-container .infoblock .contacticons {
+  color: #333333;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4);
+}
+.priceblock .block-container .infoblock .contacticons a.item {
+  color: #333333;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4);
+}
+.priceblock .block-container .infoblock .contacticons a.item:hover {
+  background: rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+}
+.contactsblock .block-container .wrapper h2.title {
+  color: #fff;
+}
+@media screen and (max-width: 1024px) {
+  .contactsblock .block-container {
+    background: none;
+  }
+  .contactsblock .block-container .wrapper h2.title {
+    color: #333333;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+  }
+  .contactsblock .block-container .wrapper .contact-info .title,
+  .contactsblock .block-container .wrapper .contact-info a,
+  .contactsblock .block-container .wrapper .contact-info p {
+    color: #333333;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+  }
+  .contactsblock .block-container .wrapper .contact-info a:hover {
+    color: #333333;
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
